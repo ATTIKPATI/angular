@@ -1,0 +1,68 @@
+<div id="back">
+  <p>add-reserve works!</p>
+  <div
+    *ngIf="alert"
+    class="alert alert-success alert-dismissible fade show"
+    role="alert"
+  >
+    <strong>Success</strong> Vos données sont bien entrées.
+    <button
+      click="closeAlert()"
+      type="button"
+      class="close"
+      data-dismiss="alert"
+      aria-label="Close"
+    >
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <form [formGroup]="addResto" (ngSubmit)="collectResto()">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Name</label>
+      <input
+        type="name"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Entrer le nom"
+        formControlName="name"
+      />
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email </label>
+      <input
+        type="email"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Entrer email"
+        formControlName="email"
+      />
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Plats</label>
+      <input
+        type="name"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Entrer le plat"
+        formControlName="plat"
+      />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<h2 class="p1">Créer son burger</h2>
+<h2 class="p2">Ingrédients</h2>
+<div id="back4">
+  <div id="back1"><img src="photo4.jpg" alt="Photo de montagne" /></div>
+  <div id="back2"><img src="photo3.jpg" alt="Photo de montagne" /></div>
+  <div id="back3"><img src="photo2.jpg" alt="Photo de montagne" /></div>
+</div>
+
+<div id="back5">
+  <button type="submit" class="btn btn-primary">Valider</button>
+</div>

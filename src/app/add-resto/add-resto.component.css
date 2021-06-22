@@ -1,0 +1,36 @@
+#back1 {
+  background-image: url("photo2.jpg");
+  /* border: 5px solid red; */
+  width: 50px;
+  margin-left: 100px;
+}
+#back2 {
+  background-image: url("photo3.jpg");
+  /* border: 5px solid pink; */
+  margin-left: 500px;
+  width: 50px;
+  margin-top: -400px;
+  margin-left: 700px;
+  transform: translate3d(50px, 50px, 0);
+}
+#back3 {
+  background-image: url("photo4.jpg");
+  /* border: 5px solid black; */
+  width: 50px;
+  margin-left: 1000px;
+  margin-top: -300px;
+}
+#back {
+  background-image: url("photo.jpg");
+  background-repeat: no-repeat;
+}
+#back5 {
+  /*border: 5px solid pink;*/
+  width: 50px;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+.p1 {
+}
+.p1 {
+}
